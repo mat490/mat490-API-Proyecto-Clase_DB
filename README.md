@@ -14,13 +14,14 @@ Es un conjunto de herramientas que sirve para diseñar, construir, documentar y 
 ### c) Descarga el proyecto del API que se encuentra en GitHub. En el foro se indicará la dirección de GitHub.
 ### d) Completa los endpoints que faltan.
  **Ejecuta el endpoint GET /products/all. ¿Qué devuelve y en qué formato?**
+
 Devuelve todos los productos en formato JSON:
 
  ![getPeosucts](./images/Respuest_getProducts.JPG "getProducts")
 
 
 ### d) Crea el endpoint /clients/all que muestre todos los clientes. Deberás tomar como referencia el endpoint GET /products/all. Para ello deberás:
-###d .1) Crear el archivo ClientDto.java en la carpeta dto.
+### d .1) Crear el archivo ClientDto.java en la carpeta dto.
 
  ![ClientDto](./images/ClientDto.JPG "ClientDto")
  
