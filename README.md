@@ -25,7 +25,7 @@ Devuelve todos los productos en formato JSON:
 
  ![ClientDto](./images/ClientDto.JPG "ClientDto")
  
-###d .2) Modificar el archivo StoreDao.java para incluir el nuevo query getClients(). Deberás mapear ClienteDto de manera similar a:
+### d .2) Modificar el archivo StoreDao.java para incluir el nuevo query getClients(). Deberás mapear ClienteDto de manera similar a:
 **@RegisterBeanMapper(ProductDto.class)
 @SqlQuery("SELECT * FROM productos")
 List<ProductDto> getProducts();**
